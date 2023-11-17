@@ -4,7 +4,7 @@ Jupyter notebooks to get some metrics about the players over the years, just for
 
 ## Summary and Findings
 
-### A overview in ratings over time
+### An overview in ratings over time
 
 ![Ratings from 2000 to 2023](/img/ratings_all_time.png "Ratings from 2000 to 2023")
 
@@ -31,6 +31,18 @@ To confirm (or not) the second hypothesys, let's take a look in some graphs:
 ![avg of top-100 players](/img/avg.png "avg of top-100 players")
 
 Note that all the percentiles and average rating of top-100 players are now smaller than its historical average. It may indicate a slight deflation in ratings.
+
+But these metrics may be affected by Magnus Carlsen, who is an exception. So let's analyze again without Carlsen:
+
+![p50 of top-99 players (without Carlsen)](/img/p50_without_carlsen.png "p50 of top-99 players (without Carlsen)")
+
+![p75 of top-99 players (without Carlsen)](/img/p75_without_carlsen.png "p75 of top-99 players (without Carlsen)")
+
+![p95 of top-99 players (without Carlsen)](/img/p95_without_carlsen.png "p95 of top-99 players (without Carlsen)")
+
+![avg of top-99 players (without Carlsen)](/img/avg_without_carlsen.png "avg of top-99 players (without Carlsen)")
+
+Looks like we can say with a high level of confidence that there is a small deflation of ratings in top-100.
 
 ### Is it fair to say that "Magnus Carlsen is no longer the same"?
 
